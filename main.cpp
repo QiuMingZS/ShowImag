@@ -1,11 +1,10 @@
 #include <opencv2/opencv.hpp>
-using namespace cv;				// °üº¬ CV µÄÃüÃû¿Õ¼ä
+using namespace cv;				// åŒ…å« CV çš„å‘½åç©ºé—´
 int main()
 {
-	// ´ÓÓ²ÅÌÖĞ¶ÁÈ¡Í¼ÏñÎÄ¼ş
+	// ä»ç¡¬ç›˜ä¸­è¯»å–å›¾åƒæ–‡ä»¶
 	Mat srcImage = imread("F:\\VS17_OpenCV3\\Material\\LongMao.jpg");
-	imshow("¡¾Ô­Ê¼Í¼¡¿", srcImage);			// ÏÔÊ¾Í¼Ïñ
-	waitKey(0);								// µÈ´ıÈÎÒâ¼ü°´ÏÂ
+	imshow("The Image", srcImage);			// æ˜¾ç¤ºå›¾åƒ
+	waitKey(0);								// ç­‰å¾…ä»»æ„é”®æŒ‰ä¸‹
 	return 0;
 }
-
